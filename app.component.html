@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="calculator">
+
+    <input type="text" placeholder="0" name="display" class="displayboard"  [(ngModel)]="vysledek">
+
+  <table>
+    <tr>
+      <td><input class="btn2" type="button" value="AC"(click)="ac()"></td>
+      <td><input class="btn2" type="button" value="/"(click)="deleno()"></td>
+      <td><input class="btn2" type="button" value="*"(click)="krat()"></td>
+      <td><input class="btn2" type="button" value="="(click)="vypocet()"></td>
+    </tr>
+    <tr>
+      <td><input class="btn" type="button" value="7"(click)="sedm()"></td>
+      <td><input class="btn" type="button" value="8"(click)="osm()"></td>
+      <td><input class="btn" type="button" value="9"(click)="devet()"></td>
+      <td><input class="btn2" type="button" value="-"(click)="minus()"></td>
+    </tr>
+    <tr>
+      <td><input class="btn" type="button" value="4"(click)="ctyri()"></td>
+      <td><input class="btn" type="button" value="5"(click)="pet()"></td>
+      <td><input class="btn" type="button" value="6"(click)="sest()"></td>
+      <td><input class="btn2" type="button" value="+"(click)="plus()"></td>
+    </tr>
+    <tr>
+      <td><input class="btn" type="button" value="1"(click)="jedna()"></td>
+      <td><input class="btn" type="button" value="2"(click)="dva()"></td>
+      <td><input class="btn" type="button" value="3"(click)="tri()"></td>
+      <td><input class="btn" type="button" value="0"(click)="nula()"></td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+
+
